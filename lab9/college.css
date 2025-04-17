@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Banner Image */
+.banner {
+    width: 100%;
+    
+}
+
+.banner-image {
+    width: 100%;
+    height:auto;
+}
+
+/* Header Section */
+.header {
+    background-color: #002b5c;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.nav-bar a {
+    margin: 0 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #f3f4f6;
+}
+
+.welcome-section button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome-section button:hover {
+    background-color: #023e8a;
+}
+
+/* Campus Images Section */
+.campus-images {
+    padding: 2rem;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Departments Section */
+.departments {
+    padding: 2rem;
+    text-align: center;
+}
+
+.department-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.department-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.department-card h3 {
+    color: #002b5c;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer a {
+    color: white;
+    margin: 0 0.5rem;
+}
